@@ -10,13 +10,11 @@ h1 {
 }
 #leftDiv {
     text-align: center;
-    position: relative;
     margin: 20px;
 }
 #rightDiv {
     text-align: center;
     background-color: #d2d4d6;
-    position: relative;
     margin: 20px;
 }
 button{
@@ -30,8 +28,8 @@ body {
 #middleDiv {
     background-color: #43464B;
     text-align: center;
-    position: relative;
     margin: 20px;
+    margin-top: 
 }
 .clearfix {
     overflow;
