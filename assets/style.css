@@ -1,0 +1,38 @@
+heading {
+    text-align: center;
+    background-color: #d2d4d6;
+    font-size: 45px;
+    margin-left: 300px;
+
+}
+h1 {
+    text-align: center;
+}
+#leftDiv {
+    text-align: center;
+    position: relative;
+    margin: 20px;
+}
+#rightDiv {
+    text-align: center;
+    background-color: #d2d4d6;
+    position: relative;
+    margin: 20px;
+}
+button{
+    height: 100px;
+    width: 350px;
+}
+body {
+    font-family: fantasy;
+    background-image: url("60578709af35d56.jpg");
+}
+#middleDiv {
+    background-color: #43464B;
+    text-align: center;
+    position: relative;
+    margin: 20px;
+}
+.clearfix {
+    overflow;
+  }

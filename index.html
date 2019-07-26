@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <heading>Completely Normal Rock Paper Scissors</heading>
+    <hr>
+    <h1>No funny business here.</h1>
+    <div id="leftDiv">
+            <div class="w3-container">
+                <button class="p1Button" value="rock">rock</button>
+                <button class="p1Button" value="paper">paper</button>
+                <button class="p1Button" value="scissors">scissors</button>
+            </div>
+    </div>
+    <div id="middleDiv">
+        <div id="p1Score"></div>
+        
+        <div id="p2Score"></div>
+
+        <div id="ties"></div>
+        
+    </div>
+    <div id="rightDiv">
+        <div class="w3-container">
+            <button class="p2Button" value="rock">rock</button>
+            <button class="p2Button" value="paper">paper</button>
+            <button class="p2Button" value="scissors">scissors</button>
+        </div>
+    </div>
+<script src="assets/app.js"></script>
+</body>
+</html>
